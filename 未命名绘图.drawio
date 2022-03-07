@@ -1,47 +1,81 @@
-<mxfile host="app.diagrams.net" modified="2022-02-15T09:00:13.260Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="YirT9M5XsSZH2p71wzAx" version="16.5.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-03-07T10:55:21.931Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="SVOIyJQoJOK6IQ0Uayb3" version="16.6.6" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="926" dy="454" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1076" dy="454" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="cOvs23Ht3cqRs1-K-zKc-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cOvs23Ht3cqRs1-K-zKc-13" target="cOvs23Ht3cqRs1-K-zKc-14">
+        <mxCell id="RACOKqDVmu3q1a4_T1PH-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RACOKqDVmu3q1a4_T1PH-63" target="RACOKqDVmu3q1a4_T1PH-65">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cOvs23Ht3cqRs1-K-zKc-13" value="图像输入模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="181" y="205" width="81" height="180" as="geometry" />
+        <mxCell id="RACOKqDVmu3q1a4_T1PH-63" value="Arduino网关" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="267" y="208" width="81" height="272" as="geometry" />
         </mxCell>
-        <mxCell id="cOvs23Ht3cqRs1-K-zKc-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cOvs23Ht3cqRs1-K-zKc-14" target="cOvs23Ht3cqRs1-K-zKc-16">
+        <mxCell id="RACOKqDVmu3q1a4_T1PH-64" value="MQTT服务器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="84" y="200.75" width="108" height="274.25" as="geometry" />
+        </mxCell>
+        <mxCell id="RACOKqDVmu3q1a4_T1PH-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RACOKqDVmu3q1a4_T1PH-65" target="RACOKqDVmu3q1a4_T1PH-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cOvs23Ht3cqRs1-K-zKc-14" value="图像预处理模块" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="317.5" y="204" width="79.5" height="181" as="geometry" />
+        <mxCell id="RACOKqDVmu3q1a4_T1PH-65" value="ZigBee网关节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="390" y="208" width="80" height="271" as="geometry" />
         </mxCell>
-        <mxCell id="cOvs23Ht3cqRs1-K-zKc-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cOvs23Ht3cqRs1-K-zKc-16" target="cOvs23Ht3cqRs1-K-zKc-18">
+        <mxCell id="RACOKqDVmu3q1a4_T1PH-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RACOKqDVmu3q1a4_T1PH-67" target="RACOKqDVmu3q1a4_T1PH-72">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cOvs23Ht3cqRs1-K-zKc-16" value="图像识别模块" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="463" y="206" width="63" height="179" as="geometry" />
+        <mxCell id="RACOKqDVmu3q1a4_T1PH-67" value="ZigeBee子节点" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="507" y="259" width="97" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="cOvs23Ht3cqRs1-K-zKc-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cOvs23Ht3cqRs1-K-zKc-18" target="cOvs23Ht3cqRs1-K-zKc-23">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="RACOKqDVmu3q1a4_T1PH-69" value="ZigeBee子节点" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="507" y="369" width="96" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="cOvs23Ht3cqRs1-K-zKc-18" value="反馈信息匹配模块" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="605" y="205" width="59" height="180" as="geometry" />
+        <mxCell id="RACOKqDVmu3q1a4_T1PH-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RACOKqDVmu3q1a4_T1PH-65" target="RACOKqDVmu3q1a4_T1PH-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="566" y="327.0344827586207" as="sourcePoint" />
+            <mxPoint x="613.9999999999998" y="194" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="cOvs23Ht3cqRs1-K-zKc-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cOvs23Ht3cqRs1-K-zKc-20" target="cOvs23Ht3cqRs1-K-zKc-13">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="RACOKqDVmu3q1a4_T1PH-71" value="传感器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="644" y="243" width="60" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="cOvs23Ht3cqRs1-K-zKc-20" value="摄像头" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="181" y="433" width="171" height="60" as="geometry" />
+        <mxCell id="RACOKqDVmu3q1a4_T1PH-72" value="继电器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="647" y="276.75" width="57" height="23.5" as="geometry" />
         </mxCell>
-        <mxCell id="cOvs23Ht3cqRs1-K-zKc-23" value="用户" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="405" y="433" width="259" height="60" as="geometry" />
+        <mxCell id="RACOKqDVmu3q1a4_T1PH-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RACOKqDVmu3q1a4_T1PH-67" target="RACOKqDVmu3q1a4_T1PH-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="613.9999999999998" y="298.48275862068965" as="sourcePoint" />
+            <mxPoint x="646" y="327.0344827586207" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="cOvs23Ht3cqRs1-K-zKc-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cOvs23Ht3cqRs1-K-zKc-27" target="cOvs23Ht3cqRs1-K-zKc-16">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="RACOKqDVmu3q1a4_T1PH-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RACOKqDVmu3q1a4_T1PH-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="613.9999999999998" y="298.5" as="sourcePoint" />
+            <mxPoint x="642" y="349" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="624" y="289" />
+              <mxPoint x="624" y="349" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="cOvs23Ht3cqRs1-K-zKc-27" value="识别模型" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="436.37" y="123" width="116.25" height="47" as="geometry" />
+        <mxCell id="RACOKqDVmu3q1a4_T1PH-76" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="651" y="323" width="8.5" height="8.5" as="geometry" />
+        </mxCell>
+        <mxCell id="RACOKqDVmu3q1a4_T1PH-79" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="651" y="344" width="9.25" height="9.25" as="geometry" />
+        </mxCell>
+        <mxCell id="RACOKqDVmu3q1a4_T1PH-80" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="651" y="376" width="8.5" height="8.5" as="geometry" />
+        </mxCell>
+        <mxCell id="RACOKqDVmu3q1a4_T1PH-81" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="651" y="400" width="8.25" height="8.25" as="geometry" />
+        </mxCell>
+        <mxCell id="RACOKqDVmu3q1a4_T1PH-82" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="650.25" y="423" width="9.25" height="9.25" as="geometry" />
+        </mxCell>
+        <mxCell id="RACOKqDVmu3q1a4_T1PH-83" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RACOKqDVmu3q1a4_T1PH-64">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="331" y="376" as="sourcePoint" />
+            <mxPoint x="265" y="338" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
