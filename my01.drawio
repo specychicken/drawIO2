@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2022-05-23T12:37:22.401Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="5Xuyeq2UrEnajx3-oW4i" version="18.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-26T07:33:46.146Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="ASgZjeVkmFgNCH7Ny3f-" version="18.1.1" type="github">
   <diagram id="7cx7Jvx4WSSWNbDhuWba" name="第 1 页">
-    <mxGraphModel dx="1052" dy="545" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1292" dy="545" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="THJUn3YUo0_ZmjllavNi-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="6" y="135.13" width="555" height="531.87" as="geometry" />
         </mxCell>
-        <mxCell id="THJUn3YUo0_ZmjllavNi-69" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="THJUn3YUo0_ZmjllavNi-69" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="21" y="147" width="500" height="490" as="geometry" />
         </mxCell>
         <mxCell id="THJUn3YUo0_ZmjllavNi-3" value="MQTT云服务器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="21" y="17" width="800" height="71.25" as="geometry" />
+          <mxGeometry x="21" y="31" width="795" height="57.25" as="geometry" />
         </mxCell>
         <mxCell id="THJUn3YUo0_ZmjllavNi-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" parent="1" source="THJUn3YUo0_ZmjllavNi-7" target="THJUn3YUo0_ZmjllavNi-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -25,7 +25,7 @@
         <mxCell id="THJUn3YUo0_ZmjllavNi-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" parent="1" source="THJUn3YUo0_ZmjllavNi-8" target="THJUn3YUo0_ZmjllavNi-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="THJUn3YUo0_ZmjllavNi-8" value="ASR模块语音转文本" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="THJUn3YUo0_ZmjllavNi-8" value="&lt;blockquote&gt;ASR模块语音转文本&lt;/blockquote&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="315" y="177" width="66" height="390" as="geometry" />
         </mxCell>
         <mxCell id="THJUn3YUo0_ZmjllavNi-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" parent="1" source="THJUn3YUo0_ZmjllavNi-10" target="THJUn3YUo0_ZmjllavNi-15" edge="1">
@@ -129,7 +129,7 @@
         <mxCell id="THJUn3YUo0_ZmjllavNi-68" value="机器人管家终端（Arm、X86架构均可运行）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="246" y="680" width="399.25" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="THJUn3YUo0_ZmjllavNi-70" value="docker镜像" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="THJUn3YUo0_ZmjllavNi-70" value="docker容器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="411" y="607" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UxHL09E3cX7baKbh302L-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="UxHL09E3cX7baKbh302L-1" target="UxHL09E3cX7baKbh302L-10" edge="1">
