@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-26T07:33:46.146Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="ASgZjeVkmFgNCH7Ny3f-" version="18.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-26T08:05:56.372Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="SjwCNUpyVGDIBSl-Wsd-" version="18.1.1" type="github">
   <diagram id="7cx7Jvx4WSSWNbDhuWba" name="第 1 页">
-    <mxGraphModel dx="1292" dy="545" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1077" dy="454" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -414,7 +414,7 @@
         <mxCell id="BKtJdzFLq2iXJ5Sx43xe-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=5;" parent="1" source="BKtJdzFLq2iXJ5Sx43xe-71" target="BKtJdzFLq2iXJ5Sx43xe-73" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BKtJdzFLq2iXJ5Sx43xe-71" value="向硬件端订阅的主题发布命令" style="rounded=1;whiteSpace=wrap;html=1;fontSize=5;" parent="1" vertex="1">
+        <mxCell id="BKtJdzFLq2iXJ5Sx43xe-71" value="向硬件主题发布命令" style="rounded=1;whiteSpace=wrap;html=1;fontSize=5;" parent="1" vertex="1">
           <mxGeometry x="2710" y="280" width="160" height="53.75" as="geometry" />
         </mxCell>
         <mxCell id="BKtJdzFLq2iXJ5Sx43xe-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=5;" parent="1" source="BKtJdzFLq2iXJ5Sx43xe-73" target="BKtJdzFLq2iXJ5Sx43xe-75" edge="1">
@@ -443,6 +443,64 @@
         </mxCell>
         <mxCell id="BKtJdzFLq2iXJ5Sx43xe-82" value="有回复内容" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=5;" parent="1" vertex="1">
           <mxGeometry x="2700" y="495" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LS4qXKJ-R3TEnlSoolI_-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=5;" edge="1" parent="1" source="LS4qXKJ-R3TEnlSoolI_-3" target="LS4qXKJ-R3TEnlSoolI_-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LS4qXKJ-R3TEnlSoolI_-3" value="硬件初始化" style="rounded=1;whiteSpace=wrap;html=1;fontSize=5;" vertex="1" parent="1">
+          <mxGeometry x="2723.25" y="688" width="160.5" height="37.37" as="geometry" />
+        </mxCell>
+        <mxCell id="LS4qXKJ-R3TEnlSoolI_-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=5;" edge="1" parent="1" source="LS4qXKJ-R3TEnlSoolI_-5" target="LS4qXKJ-R3TEnlSoolI_-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LS4qXKJ-R3TEnlSoolI_-5" value="连接MQTT服务器" style="rounded=1;whiteSpace=wrap;html=1;fontSize=5;" vertex="1" parent="1">
+          <mxGeometry x="2723.75" y="752.68" width="160" height="37.32" as="geometry" />
+        </mxCell>
+        <mxCell id="LS4qXKJ-R3TEnlSoolI_-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LS4qXKJ-R3TEnlSoolI_-7" target="LS4qXKJ-R3TEnlSoolI_-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LS4qXKJ-R3TEnlSoolI_-7" value="订阅硬件主题" style="rounded=1;whiteSpace=wrap;html=1;fontSize=5;" vertex="1" parent="1">
+          <mxGeometry x="2725.5" y="814" width="156.5" height="32.09" as="geometry" />
+        </mxCell>
+        <mxCell id="LS4qXKJ-R3TEnlSoolI_-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=5;" edge="1" parent="1" source="LS4qXKJ-R3TEnlSoolI_-12" target="LS4qXKJ-R3TEnlSoolI_-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LS4qXKJ-R3TEnlSoolI_-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LS4qXKJ-R3TEnlSoolI_-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2803" y="863" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2968" y="915" />
+              <mxPoint x="2968" y="863" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LS4qXKJ-R3TEnlSoolI_-12" value="等待服务端指令" style="rhombus;whiteSpace=wrap;html=1;fontSize=5;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2720.5" y="875" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LS4qXKJ-R3TEnlSoolI_-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LS4qXKJ-R3TEnlSoolI_-14" target="LS4qXKJ-R3TEnlSoolI_-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LS4qXKJ-R3TEnlSoolI_-14" value="根据指令执行操作" style="whiteSpace=wrap;html=1;fontSize=5;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2745" y="985" width="121" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="LS4qXKJ-R3TEnlSoolI_-15" value="无回复内容" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=5;" vertex="1" parent="1">
+          <mxGeometry x="2875" y="880" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LS4qXKJ-R3TEnlSoolI_-16" value="收到指令" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=5;" vertex="1" parent="1">
+          <mxGeometry x="2715" y="949.9999999999999" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LS4qXKJ-R3TEnlSoolI_-19" value="向服务端主题发布回复消息" style="whiteSpace=wrap;html=1;fontSize=5;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2746" y="1046" width="120" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="LS4qXKJ-R3TEnlSoolI_-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="LS4qXKJ-R3TEnlSoolI_-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2803" y="863" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2806" y="1121" />
+              <mxPoint x="2968" y="1121" />
+              <mxPoint x="2968" y="863" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
