@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-28T06:11:25.535Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="BMajZPFvsNuPEslm2xJ-" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-28T06:30:23.672Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="VxauwPEwff2IT52lcz_g" version="20.0.1" type="github">
   <diagram id="Lwo202QxARIkGxvLDYhw" name="第 1 页">
     <mxGraphModel dx="877" dy="454" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -78,6 +78,21 @@
         </mxCell>
         <mxCell id="vbJLPKbegI0LX4bT1NbD-24" value="用户id" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="126" y="194" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vbJLPKbegI0LX4bT1NbD-26" value="用户id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="91" y="714" width="76" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="vbJLPKbegI0LX4bT1NbD-28" value="资源特征" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="494" y="598" width="76" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="vbJLPKbegI0LX4bT1NbD-29" value="用户特征" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="194" y="598" width="76" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="vbJLPKbegI0LX4bT1NbD-30" value="性别" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="714" width="76" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="vbJLPKbegI0LX4bT1NbD-31" value="年龄" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="714" width="76" height="31" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
