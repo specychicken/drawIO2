@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-28T07:11:08.769Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="LuM5fH9-J4P3SHmPdlWn" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-28T10:04:16.619Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="V9So0i6053jKFnxMX6R0" version="20.0.1" type="github">
   <diagram id="Lwo202QxARIkGxvLDYhw" name="第 1 页">
     <mxGraphModel dx="877" dy="454" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -47,7 +47,7 @@
         <mxCell id="vbJLPKbegI0LX4bT1NbD-13" value="Redis数据库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="366" width="570" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="vbJLPKbegI0LX4bT1NbD-14" value="向量数据库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vbJLPKbegI0LX4bT1NbD-14" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Milvus&lt;/span&gt;向量数据库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="45" width="576" height="50" as="geometry" />
         </mxCell>
         <mxCell id="vbJLPKbegI0LX4bT1NbD-15" value="排序模型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
