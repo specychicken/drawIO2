@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-06-28T06:45:54.827Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="1PIxm4xlcsKDAdbVFKWE" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-28T07:04:43.511Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="l5tnowJUB67AWItfNQ06" version="20.0.1" type="github">
   <diagram id="Lwo202QxARIkGxvLDYhw" name="第 1 页">
     <mxGraphModel dx="877" dy="454" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="vbJLPKbegI0LX4bT1NbD-64" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="138" y="636.5" width="596" height="49" as="geometry" />
+          <mxGeometry x="227" y="636.5" width="482" height="49" as="geometry" />
         </mxCell>
         <mxCell id="vbJLPKbegI0LX4bT1NbD-62" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="138" y="702" width="596" height="51" as="geometry" />
@@ -109,7 +109,7 @@
         <mxCell id="vbJLPKbegI0LX4bT1NbD-34" value="专业特征" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="257" y="713" width="76" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="vbJLPKbegI0LX4bT1NbD-35" value="年纪特征" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vbJLPKbegI0LX4bT1NbD-35" value="年级特征" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="361" y="713" width="76" height="31" as="geometry" />
         </mxCell>
         <mxCell id="vbJLPKbegI0LX4bT1NbD-36" value="类型特征" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -215,10 +215,10 @@
           <mxGeometry x="424" y="516" width="82" height="31" as="geometry" />
         </mxCell>
         <mxCell id="vbJLPKbegI0LX4bT1NbD-65" value="concat+全连接" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="639" y="646" width="87" height="30" as="geometry" />
+          <mxGeometry x="615" y="646" width="87" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vbJLPKbegI0LX4bT1NbD-67" value="embedding" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="651" y="712.5" width="77" height="30" as="geometry" />
+        <mxCell id="vbJLPKbegI0LX4bT1NbD-67" value="embedding转换" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="648" y="713" width="86" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
