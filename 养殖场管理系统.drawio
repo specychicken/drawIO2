@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-24T07:14:30.022Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="4tQp2iINKNbwzlFtSN7G" version="20.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-24T07:18:57.089Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Ceu_GoifGdw5Gaur0f6A" version="20.2.0" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="877" dy="454" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -248,7 +248,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SODFRt9bSJiDdf-VWlbA-1" value="农产品进销存系统设计" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="438" y="724" width="175" height="47" as="geometry" />
+          <mxGeometry x="401" y="729" width="175" height="47" as="geometry" />
         </mxCell>
         <mxCell id="SODFRt9bSJiDdf-VWlbA-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="SODFRt9bSJiDdf-VWlbA-5" target="SODFRt9bSJiDdf-VWlbA-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -260,6 +260,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SODFRt9bSJiDdf-VWlbA-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="SODFRt9bSJiDdf-VWlbA-5" target="SODFRt9bSJiDdf-VWlbA-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7_C2mpXnlr8oI_WYMMDK-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SODFRt9bSJiDdf-VWlbA-5" target="7_C2mpXnlr8oI_WYMMDK-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SODFRt9bSJiDdf-VWlbA-5" value="用户管理模块" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -313,16 +316,16 @@
           <mxGeometry x="718" y="845" width="104" height="38" as="geometry" />
         </mxCell>
         <mxCell id="SODFRt9bSJiDdf-VWlbA-12" value="用户录入" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="203.5" y="921" width="25" height="112" as="geometry" />
+          <mxGeometry x="222.5" y="920.38" width="25" height="112" as="geometry" />
         </mxCell>
         <mxCell id="SODFRt9bSJiDdf-VWlbA-14" value="用户查询" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="159" y="923" width="25" height="111" as="geometry" />
+          <mxGeometry x="178" y="922.38" width="25" height="111" as="geometry" />
         </mxCell>
         <mxCell id="SODFRt9bSJiDdf-VWlbA-15" value="用户修改" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="256" y="921" width="25" height="113" as="geometry" />
+          <mxGeometry x="275" y="920.38" width="25" height="113" as="geometry" />
         </mxCell>
         <mxCell id="SODFRt9bSJiDdf-VWlbA-16" value="用户删除" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="301" y="923" width="25" height="110" as="geometry" />
+          <mxGeometry x="320" y="922.38" width="25" height="110" as="geometry" />
         </mxCell>
         <mxCell id="SODFRt9bSJiDdf-VWlbA-21" value="商品删除" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="363" y="923.75" width="25" height="112" as="geometry" />
@@ -346,7 +349,7 @@
           <mxGeometry x="803" y="922" width="25" height="110" as="geometry" />
         </mxCell>
         <mxCell id="SODFRt9bSJiDdf-VWlbA-42" value="" style="shape=requiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;rotation=90;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="364.75" y="926.75" width="12" height="235.66" as="geometry" />
+          <mxGeometry x="349.46" y="911.46" width="12" height="266.25" as="geometry" />
         </mxCell>
         <mxCell id="SODFRt9bSJiDdf-VWlbA-43" value="&lt;pre style=&quot;font-size: 5px;&quot;&gt;&lt;font face=&quot;Georgia&quot; style=&quot;font-size: 5px; line-height: 0.9;&quot;&gt;管理员权限&lt;/font&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;opacity=0;fontSize=5;textDirection=ltr;fontColor=#757575;" parent="1" vertex="1">
           <mxGeometry x="322.75" y="1049" width="96" height="30" as="geometry" />
@@ -434,6 +437,9 @@
         </mxCell>
         <mxCell id="Y1sQq-2i9glVPCzkuiOH-6" value="商品销售" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="623.5" y="923" width="25" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="7_C2mpXnlr8oI_WYMMDK-1" value="用户登录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="134" y="922.63" width="25" height="111" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
